@@ -1,6 +1,7 @@
 
 import './App.css';
-import {useEffect, useState} from "react"
+import { useEffect, useState } from "react"
+import wood from "./woodpattern.jpg"
 
 import sudokuAnswer from './answer';
 // let sudoku=Array.from (Array(9).fill(""),()=> new Array(9).fill(""))
@@ -94,12 +95,12 @@ const [board,setBoard]=useState([
 },[board])
 
   return (
-    <div className="App">
+    <div className="App" style={{backgroundImage:`url(${wood})`}}>
       <h1>Sudoku</h1>
       {board.map((item,ind) => (
         <div key={ind} className="row">
          
-          <input maxLength={1} value={board[ind][0]}  disabled={sudoku[ind][0]!==""}   onChange={ (e)=>filvalue(ind,0,e)}  className={`innner-row-${ind}0`} / >  
+          <input maxLength={1} value={board[ind][0]}  disabled={sudoku[ind][0]!==""}   onChange={ (e)=>filvalue(ind,0,e)}  className={`innner-row-${ind}0 `} / >  
          
           <input maxLength={1} value={board[ind][1]} disabled={sudoku[ind][1]!==""}  onChange={ (e)=>filvalue(ind,1,e)} className={`innner-row-${ind}1`} / >  
          

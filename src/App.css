@@ -52,17 +52,19 @@ align-items: center;
   
     width: 45px;
     height: 45px;
-    text-align: center
-    ;
+    text-align: center;
+    background-color: #fff8e0;
 }
 .row>input:hover{
   /* background-color: rgb(241, 62, 62); */
-  background-color: rgb(134, 134, 252);
-}
+  background-color:#fdd656; 
 
-.row>input:focus{
-  background-color: rgb(78, 226, 78); 
 }
+.row>input:focus{
+  background-color: orange;
+}
+ 
+
 
 
 .innner-row-00,
@@ -74,7 +76,7 @@ align-items: center;
 .innner-row-06,
 .innner-row-07,
 .innner-row-08{
-border-top: 5px solid #61dafb;
+border-top: 10px solid #513b27;
 }
 .innner-row-30,
 .innner-row-31,
@@ -85,7 +87,7 @@ border-top: 5px solid #61dafb;
 .innner-row-36,
 .innner-row-37,
 .innner-row-38{
-border-top: 5px solid #61dafb;
+border-top: 5px solid #513b27;
 }
 .innner-row-60,
 .innner-row-61,
@@ -96,7 +98,7 @@ border-top: 5px solid #61dafb;
 .innner-row-66,
 .innner-row-67,
 .innner-row-68{
-border-top: 5px solid #61dafb;
+border-top: 5px solid #513b27;
 }
 .innner-row-80,
 .innner-row-81,
@@ -107,7 +109,7 @@ border-top: 5px solid #61dafb;
 .innner-row-86,
 .innner-row-87,
 .innner-row-88{
-border-bottom: 5px solid #61dafb;
+border-bottom: 10px solid #513b27;
 }
 
 .innner-row-00,
@@ -119,7 +121,7 @@ border-bottom: 5px solid #61dafb;
 .innner-row-60,
 .innner-row-70,
 .innner-row-80{
-  border-left: 5px solid #61dafb;
+  border-left: 10px solid #513b27;
 }
 .innner-row-08,
 .innner-row-18,
@@ -130,7 +132,7 @@ border-bottom: 5px solid #61dafb;
 .innner-row-68,
 .innner-row-78,
 .innner-row-88{
-  border-right: 5px solid #61dafb;
+  border-right: 10px solid #513b27;
 }
 .innner-row-02,
 .innner-row-12,
@@ -141,7 +143,7 @@ border-bottom: 5px solid #61dafb;
 .innner-row-62,
 .innner-row-72,
 .innner-row-82{
-  border-right: 5px solid #61dafb;
+  border-right: 5px solid #513b27;
 }
 .innner-row-05,
 .innner-row-15,
@@ -152,7 +154,7 @@ border-bottom: 5px solid #61dafb;
 .innner-row-65,
 .innner-row-75,
 .innner-row-85{
-  border-right: 5px solid #61dafb;
+  border-right: 5px solid #513b27;
 }
 
 .reset-btn{
