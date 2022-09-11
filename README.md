@@ -1,5 +1,5 @@
 <h1 align="center"> Sudoku Game</h1>
-<h2>In its simplest and most common configuration, sudoku consists of a 9 × 9 grid with numbers appearing in some of the squares. The object of the puzzle is to fill the remaining squares, using all the numbers 1–9 exactly once in each row, column, and the nine 3 × 3 subgrids.  </h2>  
+<h2>Sudoku consists of a 9 × 9 grid with numbers appearing in some of the squares. The object of the puzzle is to fill the remaining squares, using all the numbers 1–9 exactly once in each row, column, and the nine 3 × 3 subgrids.  </h2>  
 
 <div>
 <h1>Deployment link</h1>
