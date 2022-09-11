@@ -19,7 +19,7 @@ https://vinod-sudoku.netlify.app/
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3" />
 </div>
 
-
+<h1>Game Screen</h1>
 <p align="center">
 <img src="./src/game.png" />
 <p>
